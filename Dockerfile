@@ -8,4 +8,5 @@ RUN git clone https://github.com/rsridivya/helloworld.git
 WORKDIR /opt/helloworld/src/hello
 RUN /opt/go/bin/go build hello.go
 ENV PATH="${PATH}:/opt/helloworld/src/hello"
+EXPOSE 8090
 
